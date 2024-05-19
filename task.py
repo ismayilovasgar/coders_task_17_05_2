@@ -1,4 +1,4 @@
-ki# Alqoritmik Task
+# Alqoritmik Task
 # Bir olimpiyadadır və burada iştirakçılar müxtəlif xallar qazanır.
 # Biz isə onların topladığı xallara görə neçənci yeri tutduğunu print etməliyik.
 # Misal üçün bizə xallar verilib. xallar = [5,3,4,2,1].
