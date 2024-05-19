@@ -8,12 +8,12 @@
 # Verilmiş xallara uyğun tutduğu yerləri gətirən bir funksiya yazın.
 
 
+def find_order(my_list: list[int]) -> list[str]:
+    result = [
+        i[1] for i in sorted(enumerate(my_list), key=lambda x: x[1], reverse=True)
+    ]
+    return [str(result.index(i) + 1) + "-cu" for i in my_list]
 
 
 my_list = [2, 4, 5, 3, 1]
-
-result1= [ i[1] for i in sorted(enumerate(my_list), key=lambda x: x[1], reverse=True)]
-
-result2 = [ (result1.index(i))+1 for i in my_list ]
-
-print(result2)
+print(find_order(my_list))
